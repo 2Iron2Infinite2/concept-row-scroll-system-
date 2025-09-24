@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const repo = "concept-row-scroll-system-";
 
-export default nextConfig;
+export default {
+  output: "export",
+  images: { unoptimized: true },
+  basePath: `/${repo}`,     
+  assetPrefix: `/${repo}/`, 
+};
